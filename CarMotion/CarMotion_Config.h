@@ -1,0 +1,27 @@
+/*
+ * CarMotion_Config.h
+ *
+ *  Created on: Jul 5, 2023
+ *      Author: musta
+ */
+
+#ifndef HAL_CARMOTION_CARMOTION_CONFIG_H_
+#define HAL_CARMOTION_CARMOTION_CONFIG_H_
+
+
+#define MOTOR_1_STATE				ENABLE
+#define MOTOR_2_STATE				ENABLE
+
+#define MOTOR_1_PORT		DIO_PORT_A
+#define MOTOR_2_PORT		DIO_PORT_B
+
+#define MOTOR_1_FIRST_PIN	DIO_PIN_0
+#define MOTOR_1_SECOND_PIN	DIO_PIN_1
+
+#define MOTOR_2_FIRST_PIN	DIO_PIN_0
+#define MOTOR_2_SECOND_PIN	DIO_PIN_1
+
+#define MOTOR_1_TIMER	TIMER0
+#define MOTOR_2_TIMER	TIMER2
+
+#endif /* HAL_CARMOTION_CARMOTION_CONFIG_H_ */

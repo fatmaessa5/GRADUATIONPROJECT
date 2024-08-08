@@ -1,0 +1,20 @@
+/*
+ * LCD_cmds.h
+ *
+ *  Created on: Apr 1, 2022
+ *      Author: Mostafa
+ */
+
+#ifndef HAL_LCD_HANDLER_V2_LCD_CMDS_H_
+#define HAL_LCD_HANDLER_V2_LCD_CMDS_H_
+
+#define SET_FUNCTION_CMD				0b00100000
+#define DISPLAY_CONTROL					0b00001000
+#define DISPLAY_CLEAR					0b00000001
+#define	ENTRY_MODE_SET					0b00000100
+#define SET_DDRAM_ADDRESS				0b10000000
+#define SHIFT_CURSOR					0b00010000
+#define SHIFT_ENTIRE_DISPLAY			0b00011000
+
+
+#endif /* HAL_LCD_HANDLER_V2_LCD_CMDS_H_ */
